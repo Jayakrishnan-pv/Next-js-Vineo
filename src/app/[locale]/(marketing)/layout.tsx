@@ -1,4 +1,3 @@
-import { LocaleSwitcher } from '@/components/atoms/LocaleSwitcher';
 import NavBar from '@/components/organisms/NavBar';
 import { setRequestLocale } from 'next-intl/server';
 
@@ -16,7 +15,6 @@ export default async function Layout(props: {
   return (
     <>
       <NavBar showElements />
-      <LocaleSwitcher />
       <div className="">{props.children}</div>
     </>
   );

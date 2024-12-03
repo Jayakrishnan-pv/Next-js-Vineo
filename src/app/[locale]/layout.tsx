@@ -1,3 +1,4 @@
+import ClientEffects from '@/components/atoms/ClientEffects';
 import { routing } from '@/libs/i18nNavigation';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
@@ -19,7 +20,6 @@ export default async function RootLayout(props: {
   }
 
   setRequestLocale(locale);
-
   // Using internationalization in Client Components
   const messages = await getMessages();
 
@@ -33,6 +33,7 @@ export default async function RootLayout(props: {
           locale={locale}
           messages={messages}
         >
+          <ClientEffects />
           {props.children}
         </NextIntlClientProvider>
       </body>

@@ -1,8 +1,21 @@
 {
   "HeroSection": {
-   "heading": "Discover the perfect wine for you",
+    "heading": "Discover the perfect wine for you",
     "sub_heading1": "Join Vineo, match with wines that fit your tastes thanks to our personalized recommendations",
     "sub_heading2": "Surprise yourself with new flavors and unforgettable experiences",
     "button_text": "Begin"
+  },
+  "NavBar": {
+    "text": "Give Vineo as a gift",
+    "access_text": "Access",
+    "begin_text": "Begin"
+  },
+  "ElProceso": {
+    "title": "The Process",
+    "sub_title": "How do we find the perfect wines for you?",
+    "desc1": "We analyze your wine preferences through 18 key aspects",
+    "desc2": "Our algorithm then determines the probability that you will like each bottle that we will include in each box.",
+    "desc3": "This value is used to carefully select the bottles of wine that we will include in your box.",
+    "button_text": "Starts"
   }
 }

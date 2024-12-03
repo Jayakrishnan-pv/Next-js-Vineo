@@ -20,7 +20,7 @@ const HeroSection = async ({ locale }: HeroSectionProps) => {
         paragraphs={[t('sub_heading2')]}
         buttonText={t('button_text')}
         showButton
-        mainClass="ml-5 mt-14 py-5 text-blue-950 md:ml-10"
+        mainClass="ml-5 mt-20 py-5 text-blue-950 md:ml-10"
         h2Class="mb-8 w-3/4 text-2xl font-bold md:w-full md:text-3xl lg-l:text-4xl"
         h3Class="mb-8 w-2/4 text-lg sm:w-2/4 md:w-4/12 md:text-xl lg-l:text-2xl"
         pClass="w-2/4 text-lg sm:w-2/4 md:w-4/12 md:text-xl lg-l:text-2xl"

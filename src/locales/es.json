@@ -4,5 +4,21 @@
     "sub_heading1": "Únete a Vineo, haz match con vinos que encajan con tus gustos gracias a nuestras recomendaciones personalizadas",
     "sub_heading2": "Sorpréndete con nuevos sabores y experiencias inolvidables",
     "button_text": "Empieza"
+  },
+  "NavBar": {
+    "text": "Regala Vineo",
+    "access_text": "Acceso",
+    "begin_text": "Empieza"
+  },
+  "ElProceso": {
+    "title": "El Proceso",
+    "sub_title": "¿Cómo encontramos los vinos perfectos para ti?",
+    "desc1":
+      "Analizamos tus preferencias de vino a través de 18 aspectos clave",
+    "desc2":
+      "Luego, nuestro algoritmo determina la probabilidad de que te guste cada botella que incluiremos en cada caja",
+    "desc3":
+      "Este valor se utiliza para seleccionar cuidadosamente las botellas de vino que incluiremos en tu caja",
+    "button_text": "Comienza"
   }
 }
